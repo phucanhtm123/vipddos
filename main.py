@@ -110,7 +110,7 @@ def handle_menu_selection(selection):
         input("  ttack (Enter)\n")
         proxy_file = "proxy.txt"
         proxy_count = count_proxy(proxy_file)
-        print(f"  Proxy Found" {proxy_count}")
+        print(f"  Proxy Found {proxy_count}")
         run_script('HTTP2.js', [target, time])
 
     elif selection == '4':
