@@ -103,7 +103,7 @@ def handle_menu_selection(selection):
         print(f"  Target: {target}")
         print(f"  Time: {time}")
         print()
-        print(f"  Details Default)
+        print(f"  Details Default")
         print(f"  Proxyfile: proxy.txt")
         print(f"  Uafile: ua.txt")
         print("=========================================")
